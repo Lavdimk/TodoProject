@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/vvv"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvUserid"
+        android:layout_width="match_parent"
+        android:text="USERID:"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:text="ID:"
+        android:layout_below="@id/tvUserid"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+
+     />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvid"
+        android:text="TITLE:"
+        />
+    <TextView
+        android:id="@+id/completedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLETED:"
+        android:layout_below="@id/titleTextView"/>
+
+
+</RelativeLayout>

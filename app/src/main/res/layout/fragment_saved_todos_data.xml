@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SavedTodosDataFragment">
+
+    <EditText
+        android:id="@+id/etsavedTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X"
+        android:textAlignment="center"
+        android:layout_margin="10dp"/>
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/btngetSavedTodo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/etsavedTodo"
+      android:text="Get Title"
+      android:layout_marginHorizontal="10dp"/>
+
+
+
+</RelativeLayout>
